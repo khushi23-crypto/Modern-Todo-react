@@ -1,0 +1,117 @@
+/* ===== Global Styles ===== */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f6fa;
+  color: #333;
+}
+
+/* ===== Todo Container ===== */
+.todo-app {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #94f5a9;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  margin-left: 700px;
+}
+
+.todo-app h1 {
+  text-align: center;
+  color: #2d3436;
+  margin-bottom: 20px;
+}
+
+/* ===== Input Section ===== */
+.todo-input-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.todo-input {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #dfe6e9;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.todo-input:focus {
+  border-color: #0984e3;
+}
+
+.todo-add-btn {
+  padding: 10px 16px;
+  background: #0984e3;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.todo-add-btn:hover {
+  background: #74b9ff;
+}
+
+/* ===== Todo List ===== */
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #f1f2f6;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.todo-item.completed {
+  text-decoration: line-through;
+  color: #636e72;
+  background: #dfe6e9;
+}
+
+/* ===== Action Buttons ===== */
+.todo-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.todo-btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 18px;
+  transition: transform 0.2s, color 0.3s;
+}
+
+.todo-btn.edit {
+  color: #00b894;
+}
+
+.todo-btn.edit:hover {
+  color: #55efc4;
+  transform: scale(1.2);
+}
+
+.todo-btn.delete {
+  color: #d63031;
+}
+
+.todo-btn.delete:hover {
+  color: #ff7675;
+  transform: scale(1.2);
+}
