@@ -1,12 +1,56 @@
-# React + Vite
+# 📝 React To-Do List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive **To-Do List application built with React** that helps users manage their daily tasks efficiently. It allows you to add, edit, delete, and mark tasks as complete, providing a clean and minimal interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- Add new tasks easily
+- Edit existing tasks in-place
+- Mark tasks as completed or uncompleted
+- Delete tasks with one click
+- Data persistence using **localStorage**
+- Fully responsive for mobile and desktop
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+- **Frontend:** React, JavaScript (ES6+), CSS
+- **State Management:** React Hooks (`useState`, `useEffect`)
+- **Storage:** localStorage
+
+---
+
+## 💻 Usage
+- Type your task in the input field and press Enter to add
+- Click on a task to mark it as completed
+- Edit tasks by clicking the edit button
+- Delete tasks you no longer need
+- All tasks are saved automatically in **localStorage**
+
+---
+
+## 🌟 Future Enhancements
+- Dark mode toggle 🌙
+- User authentication (sign in to sync tasks)
+- Drag-and-drop task reordering
+- Category/tag-based task filtering
+- Cloud database integration (MongoDB/Firebase)
+
+---
+
+## 🤝 Contribution
+Contributions are always welcome!  
+To contribute:
+1. Fork the repository
+2. Create a new branch (`feature-branch`)
+3. Commit your changes
+4. Push to your branch
+5. Submit a Pull Request
+
+---
+
+## 👩‍💻 Author
+**Kajal Saini**  
+- GitHub: ([https://github.com/your-username](https://github.com/khushi23-crypto))  
+
